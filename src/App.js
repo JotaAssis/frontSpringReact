@@ -19,9 +19,8 @@ function App() {
   // Retorno
   return (
     <div>
-      <p>{JSON.stringify(produtos)}</p>
       <Formulario botao={btnCadastrar}/>
-      <Tabela/>
+      <Tabela vetor={produtos}/>
     </div>
   );
 }
